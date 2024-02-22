@@ -2,10 +2,14 @@
 
 namespace MeuPrograma
 {
-    ///Programa a correr
+    /// <summary>
+    /// Class do programa
+    /// </summary>    
     class Program
     {
-        ///Escrever Hello World e Bye World
+            /// <summary>
+            /// classe com hello world e bye world
+            /// </summary>  
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
