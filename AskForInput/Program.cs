@@ -12,6 +12,7 @@ namespace AskForInput
             Console.WriteLine("Insira um numero real");
             str = Console.ReadLine();
             float f = float.Parse(str);
+            Console.WriteLine(f+i);
         }
     }
 }
