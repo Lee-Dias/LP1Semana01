@@ -11,6 +11,11 @@ namespace VariousType
             int b = 10;
             ushort c = 15;
             Console.WriteLine(a + " " + b + " " + c);
+            ///Variaveis char
+            char coracao = '\u2661';
+            char Seta_direita = '\u2192';
+            Console.WriteLine(coracao + " " + Seta_direita);
+
         }
     }
 }
