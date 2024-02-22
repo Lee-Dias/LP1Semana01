@@ -9,7 +9,9 @@ namespace AskForInput
             Console.WriteLine("Insira um numero inteiro");
             string str = Console.ReadLine();
             int i = int.Parse(str);
-
+            Console.WriteLine("Insira um numero real");
+            str = Console.ReadLine();
+            float f = float.Parse(str);
         }
     }
 }
