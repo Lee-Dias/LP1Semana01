@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace VariousType
 {
@@ -19,6 +20,10 @@ namespace VariousType
             float fl = 3.1415F;
             decimal De = 2.14M;
             Console.WriteLine(fl + " " + De);
+            ///Variaveis boolean
+            bool T = true;
+            bool F = false;
+            Console.WriteLine(T + " " + F);
 
         }
     }
