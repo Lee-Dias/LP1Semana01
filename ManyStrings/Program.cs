@@ -9,7 +9,8 @@ namespace ManyStrings
             ///ex 6 
                 double xx = 1.23456;
                 int ii = 19;
-                Console.WriteLine($"{xx:F2} " + " | " + $"{xx:P1}" + " | " + $"{ii:X}" + " | " + $"{ii:C}");
+                Console.WriteLine(" | " + $"{xx:F2} " + " | " + $"{xx:P1}" 
+                + " | " + $"{ii:X}" + " | " + $"{ii:C}");
 
 
             ///Variaveis do tipo String
